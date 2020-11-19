@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	font-family: "Hiragino Kaku Gothic ProN";
+	background-color:#dcdab5;
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+.container{
+	max-width: 1170px;
+	width:calc(100% - 20px - 20px);
+	margin: 0 auto;
+}
+
+.top-wrapper {
+	width:560px;
+	padding: 90px 0 60px 0;
+	margin:0 auto;
+	background-size: cover;
+	color: black;
+	text-align: center;
+}
+
+.acount-wrap {
+	position:relative;
+	border:#50e4ed 10px solid;
+	box-sizing:border-box;
+	padding:50px 0 60px 0;
+	text-align:center;
+	background-color:white;
+}
+.acount-wrap section{
+	margin:0 auto ;
+	border-top:#CCC 1px solid;
+	width:457px;
+	box-sizing:border-box;
+	text-align:left;
+	overflow: hidden;
+}
+
+.inner{
+	padding:0 50px;
+}
+
+.file input {
+	position: relative;
+	margin: 8px 0 0 -14px;
+}
+
+.file input::before {
+	content: “添付ファイル：”;
+	position: absolute;
+	background: #fff;
+	width: 110px;
+	height: 26px;
+	line-height: 1.8;
+	text-align: right;
+}
+
+.title{
+	border:#CCC 1px solid;
+}
+
+.acount-wrap h1{
+	font-size:1.5rem;
+	background:none;
+	text-indent:0;
+	text-align:center;
+	padding:0 0 15px;
+	margin:0;
+}
+.acount-wrap h3{
+	font-size:1.2rem;
+	line-height: 1.5rem;
+	font-weight: bold;
+	text-align: left;
+}
+
+.acount-wrap section p{
+	font-size: 1.6rem;
+ 	font-weight:bold;
+}
+
+.acount-wrap h5{
+    font-size: 15px;
+    padding:0;
+    margin:0 30px;
+}
+
+.acount-wrap h6{
+    color: #ff0008;
+    font-size: 15px;
+    padding:0;
+    margin:10px 0 0 0;
+}
+
+.acount-wrap input{
+	width:100%;
+	line-height:2rem;
+	font-size:1rem;
+	padding:0 10px;
+	margin-bottom: 20px;
+}
+
+.acount-wrap textarea{
+  white-space: pre-wrap;
+	border:#CCC 1px solid;
+	width:100%;
+	line-height:2rem;
+	font-size:1rem;
+	padding:0 10px;
+	margin-bottom: 20px;
+}
+
+.button{
+	border-style:none;
+	display:inline-block;
+	height:50px;
+	text-align:center;
+	padding:12px 12px;
+	line-height:1em;
+	position:relative;
+	background-color:rgb(0,196,29);
+	color:white;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+.buttonsignup{
+ 	padding: 8px 24px;
+  	color: white;
+  	display: inline-block;
+  	opacity: 0.8;
+  	border-radius: 4px;
+  	background-color:green;
+  	margin-bottom:30px
+}
+
+.buttonlogin{
+ 	padding: 8px 24px;
+  	color: white;
+  	display: inline-block;
+  	opacity: 0.8;
+  	border-radius: 4px;
+  	background-color:#ff761c;
+}
+
+.top-back {
+  padding: 165px 0 120px 0;
+  background-image: url(https://recspot.s3-ap-northeast-1.amazonaws.com/topmenu/home.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-inner{
+	background:rgba(0,0,0,0.5);
+	padding:30px 0;
+	width:720px;
+	position:center;
+	margin-left:250px;
+}
+
+.select-box{
+	border:#CCC 1px solid;
+	width:20%;
+	line-height:2rem;
+	font-size:1rem;
+	padding:5px 10px;
+	margin-bottom: 20px;
+}
+
+.post-wrap {
+	background-color:white;
+	width:1270px;/**/
+	padding: 20px 0 20px 0;
+	margin:85px auto;
+	background-size: cover;
+	color: black;
+	border:#CCC 1px solid;
+}
+
+.post-wrap ul{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.postlisttitle{
+	width:calc(100% - 20px - 0px);
+	background-color:#ff9938;
+	width:150px;
+	padding:0 20px 0 20px;
+	color:white;
+	text-align:center;
+}
+
+.postlist{
+	margin:0 20px;
+	width:315px;
+	padding:10px 0 0 40px;
+	border:#CCC 1px solid;
+	border-left:none;
+	border-right:none;
+	position:center;
+}
+
+.postlist img{
+	height:220px;
+	width:280px;
+	object-fit:cover;
+}
+
+.postinfo h3 a{
+	color:#00d871;
+}
+
+.postinfo h5, h6{
+	color:#807e7c;
+}
+
+.postname{
+	color:#00d871;
+}
+
+.posttitle{
+	background-color:#ff9938;
+	padding:40px 20px 20px 20px;
+	color:white;
+	text-align:left;
+	margin:20px 140px;
+}
+
+.posttext{
+	margin:0 140px 0 140px;
+	padding-bottom:20px;
+	border-bottom:#CCC 1px solid;
+}
+
+.postimg{
+	margin:0 140px 0 140px;
+	padding-bottom:10px;
+	width:50%;
+	height:auto;
+}
+.postreturn{
+	padding:0 140px 0 140px;
+	color:#00d871;
+}
+
+.header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  margin-top: 20;
+  color: white;
+}
+
+.header-list ul {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  padding: 0 20px;
+}
+
+.header-list a{
+  color: white;
+}
