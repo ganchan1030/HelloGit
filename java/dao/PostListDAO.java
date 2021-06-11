@@ -12,19 +12,12 @@ import model.PostList;
 
 public class PostListDAO {
   //データベース情報(オンライン)
-  /*
   String hostname = "ec2-52-20-160-44.compute-1.amazonaws.com";
   String dbname ="d5a4a1dcp9vs2v";
   private final String JDBC_URL = "jdbc:postgresql://" + hostname + ":5432/" + dbname;
   private final String DB_USER = "tlebjnjrncwdyc";
   private final String DB_PASS = "992525c79a7a7887cfcc940d6fc50e2f5ac428d61ac4dedb72bcd1d12d42bdeb";
-  */
-
-  //データベース情報(オフライン)
-   private final String JDBC_URL = "jdbc:h2:tcp://localhost/~/RECSPOT";
-   private final String DB_USER = "sa";
-   private final String DB_PASS = "";
-
+  
 
   //すべての投稿を読み込む
   public List<PostList> loadAllPost(){
